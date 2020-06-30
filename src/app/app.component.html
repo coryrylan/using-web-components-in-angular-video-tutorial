@@ -1,0 +1,9 @@
+<h1>Angular Application using Web Components</h1>
+
+<p>
+  {{open ? 'open' : 'closed'}}
+</p>
+
+<x-dropdown [title]="myTitle" (show)="toggle($event)">
+  Hello from Web Component in Angular!
+</x-dropdown>
