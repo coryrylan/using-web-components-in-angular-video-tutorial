@@ -1,5 +1,4 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import 'web-component-essentials';
 
 @Component({
   standalone: true,
